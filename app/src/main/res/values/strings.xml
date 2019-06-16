@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="resume">resume</string>
+    <string name="company_name">Company Name:</string>
+    <string name="role_name">Role Name:</string>
+    <string name="date_from">Date from:</string>
+    <string name="date_to">Date to:</string>
+    <string name="responsibilities">Responsibilities:</string>
+    <string name="achievements">Achievements:</string>
+    <string name="professional_summary">Professional Summary</string>
+    <string name="technical_skills">Technical Skills</string>
+    <string name="past_experience">Past Experience</string>
+</resources>

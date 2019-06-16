@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context=".view.MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:text="name" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="title" />
+
+            <TextView
+                android:id="@+id/professionalSummaryLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightGreen"
+                android:padding="5dp"
+                android:text="@string/professional_summary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="professional_summary" />
+
+            <TextView
+                android:id="@+id/tvProffessionalSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="14sp"
+                tools:text="your professional summary here" />
+
+            <TextView
+                android:id="@+id/technicalSkillsLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightGreen"
+                android:padding="5dp"
+                android:text="@string/technical_skills"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Technical Skills" />
+
+            <TextView
+                android:id="@+id/tvTechSkills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="14sp"
+                tools:text="your technical skills here" />
+
+            <TextView
+                android:id="@+id/pastExperienceLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightGreen"
+                android:padding="5dp"
+                android:text="@string/past_experience"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Past Experience" />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPAstExperiences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            tools:listitem="recycler_view_item" />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
